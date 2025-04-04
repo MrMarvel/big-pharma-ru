@@ -1181,7 +1181,7 @@
 	{"code":"mapsize","text":"Размер карты:"},
 	{"code":"numbercompetitors","text":"Количество сопрерников:"},
 	{"code":"startingcash","text":"Начальный капитал:"},
-	{"code":"startingloan","text":"Начиный займ:"},
+	{"code":"startingloan","text":"Начальный займ:"},
 	{"code":"challengescaps","text":"ВЫЗОВЫ"},
 	
 	// CHALLENGE WINDOW
