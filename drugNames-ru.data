@@ -2,34 +2,34 @@
 	"endings":[
 		{
 			"id":"getridof",
-			"endings":["-Ease","-No-More","-Away"," Catcher"," Beater"," Stomper"," Buster"," Bane", " Crusher", " Punisher", " Soother", " Relief", " Reliever"]
+			"endings":["-Прочь","-Больше-Нету","-Вон"," Ловец"," Боец"," Топтун"," Разрушитель"," Гибель", " Дробитель", " Наказатель", " Успокоитель", " Облегчение", " Помощник"]
 		},
 		{
 			"id":"reduce",
-			"endings":[" Reducer"," Decreaser"," Relief", " Reliever", "-Mate", " Helper", "-Ease", " Buddy"]
+			"endings":[" Снижатель"," Уменьшитель"," Облегчение", " Помощник", "-Товарищ", " Помогатор", "-Простота", " Друг"]
 		},
 		{
 			"id":"increase",
-			"endings":[" Increaser"," Creator"," Amplifier", " Enlarger", " Strengthener", " Augmenter", " Improver"]
+			"endings":[" Повышатель"," Создатель"," Усилитель", " Увеличитель", " Укрепитель", " Усилитель", " Улучшатель"]
 		}
 	
 	],
 	
-	"addons":[" Max"," Pro"," 2.0"," Maxi", " Plus", " Xtreme", " Extra", " XL", " Ultra", " Ultimate", " Elite", " Power", " +", " Intense", " Supreme"],
+	"addons":[" Макс"," Про"," 2.0"," Макси", " Плюс", " Экстрим", " Дополнительно", " XL", " Ультра", " Абсолют", " Элитный", " Сила", " +", " Интенсив", " Верховный"],
 	"starts":[
 		{
 			"id":"cough",
-			"names":["Cough","Chesty Cough"],
+			"names":["Кашель","Мокрый Кашель"],
 			"endType":"getridof"
 		},
 		{
 			"id":"painkiller",
-			"names":["Pain","Ache"],
+			"names":["Боль","Ноющая боль"],
 			"endType":"getridof"
 		},
 		{
 			"id":"migraine",
-			"names":["Headache","Migraine"],
+			"names":["Головная Боль","Мигрень"],
 			"endType":"getridof"
 		},
 		{
@@ -48,7 +48,7 @@
 		},
 		{
 			"id":"angina",
-			"names":["Angina"],
+			"names":["Ангина"],
 			"endType":"getridof"
 		},
 		{
