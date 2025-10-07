@@ -9,15 +9,15 @@
 	// NEW MACHINES
 	{"code":"booster","text":"Буст-Миксер"},
 	{"code":"boosterdesc","text":"&GREY>Перемещает &eff5>Буст&GREY>-эффенкты из одного ингредиента в другой. Ингредиенты, содержащие &eff5>Буст&GREY>-эффекты должны поступать в &eff5>оранжевый&GREY> люк."},
-	{"code":"stockgate","text":"Контролеер запасов"},
+	{"code":"stockgate","text":"Складской Контроллер"},
 	{"code":"stockgatecaps","text":"КОНТРОЛЛЕР ЗАПАСОВ"},
-	{"code":"stockgatedesc","text":"&GREY>Дополнение к конвейерной ленте. Используется, чтобы контролировать поток лекарств на вашей фабрике, в зависимости от текущего уровня запасов произведённого лекарства."},
+	{"code":"stockgatedesc","text":"&GREY>Дополнение к конвейерной ленте. Используйте, чтобы контролировать поток лекарств на вашей фабрике, в зависимости от текущего уровня запасов произведённого лекарства."},
 	
 	// GUI
 	// CHALLENGES
 	{"code":"operatingProfitMM","text":"Достичь суточный операционный доход до &$>{0}."},
 	{"code":"operatingProfitHoverMM","text":"Суточный операционный доход : &$>{0}"},
-	{"code":"cureDemandMM","text":"Снизить спроса на {0} ниже чем {1}/д."},
+	{"code":"cureDemandMM","text":"Снизить спрос на {0} до значения меньше {1}/д."},
 	{"code":"cureDemandHoverMM","text":"Спрос на {0} сейчас составляет {1}/д."},
 	{"code":"productValueMM","text":"Одновременно продайте {0} продуктов, лечащих различные заболевания по цене более &$>{1}."},
 	{"code":"productValueOneMM","text":"Продайте 1 продукт по цене более &$>{0}."},
@@ -76,6 +76,8 @@
 	// INGREDIENTS TAB
 	{"code":"boosterpreview","text":"&LTBLUE>Предварительные отчёты показывают, что мы можем найти ингредиент с &eff5>Буст&LTBLUE>-эффектом."},
 	{"code":"boosterpreviewcat","text":"&LTBLUE>Предварительные отчёты показывают, что мы можем найти ингредиент с &eff5>Буст&LTBLUE>-эффектом.\n\nТакже существует вероятность обнаружить следующие &W>катализаторы&LTBLUE>:"},
+	{"code":"cureinfoingredientsupplieddescMM","text":"Purchased - The number of this ingredient purchased each day, averaged over the last month."},
+	{"code":"totalpurchasedMM","text":"Total purchased per day:"},
 	// PRODUCTION TAB
 	{"code":"stockgate1","text":"Выберите продукт:"},
 	{"code":"stockgate2","text":"Линия будет запущена, если продукта на складе будет:"},
@@ -108,6 +110,7 @@
 	{"code":"badpublicity.corporate_slander","text":"Журналисты узнали, что Вы распространяли клевету порочащую конкурентов по данному продукту. Они опубликовали статью, которая повлечёт следующие последствия:"},
 	// CURE Tab
 	{"code":"symptomawarenesscampaign","text":"Компания осведомлённости о симптомах"}, // on graph when symptom awareness campaign is active.
+	{"code":"changeindemandcuregraph","text":"Изменение в спросе/день"},
 	
 	// PERKS
 	{"code":"perk.recycling_expert","text":"Эксперт переработки"},
@@ -221,8 +224,8 @@
 	{"code":"research.branding","text":"Разблокирует брэндинг."},
 	{"code":"research.social_media","text":"Разблокирует социальные медиа."},
 	
-	{"code":"research.disease_awareness_campaigns","text":"Разблокирует возможност запуска кампании осведомлённости о болезни."},
-	{"code":"research.symptom_awareness","text":"Разблокирует возможност запуска кампании осведомлённости о симптомах."},
+	{"code":"research.disease_awareness_campaigns","text":"Разблокирует возможность запуска кампании осведомлённости о болезни."},
+	{"code":"research.symptom_awareness","text":"Разблокирует возможность запуска кампании осведомлённости о симптомах."},
 	{"code":"research.corporate_slander","text":"Разблокирует корпоративную клевету."},
 	{"code":"research.preventative_aftercare","text":"Разблокирует превентивный уход за выздоравливающим."},
 	
@@ -273,15 +276,15 @@
 	{"code":"tutorial6-mm-g","text":"Это откроет доступ к нескольким управляющим, но нам также необходимо изучить их возможности, прежде чем начать их использование. В этом сценарии исследование &LTBLUE>Торговые представители&W> уже завершено, но в реальной игре это Вам предстоит изучать его самостоятельно."},
 	{"code":"tutorial6-mm-h","text":"Как только исследование &LTBLUE>Национальный штаб&W> будет завершено (в этом сценарии скорость исследования увеличена) вернитесь на вкладку &TAB>'Компания'&W>, пришло время найти применение нашим управляющим!\n\nНажмите на столбец &LTBLUE>Бонус продаж&W> любого из ваших продуктов."},
 	{"code":"tutorial6-mm-i","text":"Откроется окно &LTBLUE>Сводка управляющего&W>. Отсюда мы можем назначить управляющих на различные задачи, связанные с этим продуктом.\n\nНазначте управляющего на задачу &LTBLUE>Торговые представители&W>."},
-	{"code":"tutorial6-mm-j","text":"Это принесёт прямой бонус к рейтингу продаж этого продукта, и увеличит суточные продажи или позволит назначить юолее высокую цену, в случае если Вы и так уже продаёте весь объём производства данного товара. Управляющие могут быть в любой момент переназначены по вашему усмотрению.\n\nЗакройте окно &TAB>Сводка управляющего&W>.\n\nДля завершения сценария, назначьте всех трёх управляющих на ваши продукты. Вы можете поэксперементировать с ценами для максимизации доходов. Но помните, что их не стоит завышать, иначе продукты будут скапливаться на складах и Вы начнёте терять деньги."},
+	{"code":"tutorial6-mm-j","text":"Это принесёт прямой бонус к рейтингу продаж этого продукта, и увеличит суточные продажи или позволит назначить более высокую цену, в случае если Вы и так уже продаёте весь объём производства данного товара. Управляющие могут быть в любой момент переназначены по вашему усмотрению.\n\nЗакройте окно &TAB>Сводка управляющего&W>.\n\nДля завершения сценария, назначьте всех трёх управляющих на ваши продукты. Вы можете поэксперементировать с ценами для максимизации доходов. Но помните, что их не стоит завышать, иначе продукты будут скапливаться на складах и Вы начнёте терять деньги."},
 	
-	{"code":"totalProductsMinCureRatingB","text":"Sell a product with a Cure Rating of C+."},
-	{"code":"totalProductsMinCureRatingBHover","text":"{0} products with Cure Rating of C+ being sold."},
+	{"code":"totalProductsMinCureRatingB","text":"Продайте продукт с Рейтингом Исцеления не ниже C+"},
+	{"code":"totalProductsMinCureRatingBHover","text":"{0} продуктов с Рейтингом Исцеления C+ продаются."},
 	
-	{"code":"tutorial7-mm-a","text":"Hello and welcome to Tutorial 7: Analyzer and Upgrading.\n\nIn this tutorial you'll learn how to:&LIST>\n - upgrade your machines and ingredients\n - use the &LTBLUE>Analyzer&LIST> machine to discover more about your cures and side-effects.\n - use this information to design more effective drugs with better &LTBLUE>Cure Ratings&LIST>.\n\n&TITLE>Upgrading Ingredients&W>\n\nThroughout the last six tutorials you will have been accumulating &LTBLUE>Ingredient Upgrade Points&W>. It's time to spend some.\n\nNavigate to the &LTBLUE>Ingredients Tab&W>.\n\nThe total number of points is shown in the top right corner of the screen."},
-	{"code":"tutorial7-mm-b","text":"Each ingredient you have discovered has an upgrade button. Hover over it to see the cost of upgrading and the bonus it will bestow."},
-	{"code":"tutorial7-mm-c","text":"Try upgrading one of your ingredients by clicking the upgrade button."},
-	{"code":"tutorial7-mm-d","text":"Notice that the indicator below the upgrade button has lit up. This shows you what level upgrade each ingredient is at. There is a maximum upgrade level of 5.\n\nIn a real game of Big Pharma you'll want to concentrate your upgrades on ingredients which you're importing a lot of or which have a high import price.\n\n&TITLE>Upgrading Research&W>\n\nNavigate to the &LTBLUE>Research Tab&W>. Upgrading research projects is very similar to upgrading ingredients. Your current total of &LTBLUE>Research Upgrade Points&W> is shown in the top right of the screen."},
+	{"code":"tutorial7-mm-a","text":"Здравствуйте и добро пожаловать в Обучение 7: Анализатор и Улучшение.\n\nВ этом уроке вы узнаете, как:&LIST>\n - улучшать свои машины и ингредиенты\n - использовать машину &LTBLUE>Анализатор&LIST>, чтобы узнать больше о ваших лекарствах и побочных эффектах.\n - использовать эту информацию для создания более эффективных препаратов с лучшими &LTBLUE>Рейтингами Исцеления&LIST>.\n\n&TITLE>Улучшение Ингредиентов&W>\n\nЗа предыдущие шесть уроков вы накопили &LTBLUE>Очки Улучшения Ингредиентов&W>. Пора их потратить.\n\nПерейдите на вкладку &LTBLUE>Ингредиенты&W>.\n\nОбщее количество очков отображается в правом верхнем углу экрана."},
+	{"code":"tutorial7-mm-b","text":"Каждый обнаруженный вами ингредиент имеет кнопку улучшения. Наведите курсор на неё, чтобы увидеть стоимость улучшения и бонус, который оно даст."},
+	{"code":"tutorial7-mm-c","text":"Попробуйте улучшить один из ваших ингредиентов, нажав кнопку улучшения."},
+	{"code":"tutorial7-mm-d","text":"Обратите внимание, что индикатор под кнопкой улучшения загорелся. Это показывает, на каком уровне улучшения находится каждый ингредиент. Максимальный уровень улучшения — 5.\n\nВ реальной игре Big Pharma вам стоит сосредоточить улучшения на ингредиентах, которые вы импортируете в больших количествах или которые имеют высокую цену импорта.\n\n&TITLE>Улучшение исследований&W>\n\nПерейдите на вкладку &LTBLUE>Вкладка Исследования&W>. Улучшение исследовательских проектов очень похоже на улучшение ингредиентов. Ваше текущее общее количество &LTBLUE>Очков Улучшения Исследований&W> отображается в правом верхнем углу экрана."},
 	{"code":"tutorial7-mm-e","text":"Any research project which has an upgrade button can be upgraded.\n\nUnlike ingredient upgrades, the bonus you'll get for each upgrade depends on the specific research project. For example, machine upgrades normally yield a decrease in process cost, while infrastructure projects often yield global bonuses to your entire company.\n\nFor this tutorial, we need to upgrade the &LTBLUE>Analyzer&W> project."},
 	{"code":"tutorial7-mm-f","text":"Upgrade the &LTBLUE>Analyzer&W> to maximum level (3). This will speed up the analysis process we use later in this tutorial.\n\n&TITLE>The Analyzer Machine&W>\n\nNavigate back to the &TAB>Production Tab&W>.\n\nNext we are going to improve the &eff1>Angina&W> medication that we sell. Build your newly upgraded &LTBLUE>Analyzer&W> machine in the position marked below. You'll find the &LTBLUE>Analyzer&W> under the &LTBLUE>Auxiliary&W> toolbar."},
 	{"code":"tutorial7-mm-g","text":"Now delete the existing part of the line using Right-Click and build belts to connect the stream of &eff1>Treats Angina&W> drugs into the &LTBLUE>Analyzer&W>."},

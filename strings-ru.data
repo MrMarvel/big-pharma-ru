@@ -786,6 +786,7 @@
 	{"code":"claim","text":"ЗАПРОСИТЬ"},
 	{"code":"move","text":"Двигать"},
 	{"code":"sell","text":"Продать"},
+	{"code":"addlabel","text":"Переименовать"},
 	{"code":"basevalue","text":"Базовая стоимость:"},
 	{"code":"combinedvalue","text":"Совокупная стоимость:"},
 	{"code":"processingcostcolon","text":"Стоимость обработки:"},
@@ -801,7 +802,7 @@
 	{"code":"notconnected","text":"Этот конвейер не правильно подключен к вводу/выводу этой машины."},
 	{"code":"gamepaused","text":"ИГРА ПРИОСТАНОВЛЕНА"},
 	{"code":"stop","text":"СТОП"},
-	{"code":"costperdrugcolon","text":"Расходы на производство одной штуки:"},
+	{"code":"costperdrugcolon","text":"ЦЕНА ЗА ЛЕКАРСТВО:"},
 	{"code":"togglebase","text":"СМЕНА БАЗЫ"},
 	
 	
@@ -912,6 +913,8 @@
 	{"code":"spying_ingredients_hover","text":"Следующие компании имеют доступ к этому ингредиенту:\n{0}"},
 	{"code":"spying_ingredients_next_hover","text":"Следующие компании сейчас исследуют его:\n{0}"},
 	{"code":"typecolon","text":"ТИП:"},
+	{"code":"slashmonth","text":"/m"},
+	{"code":"importingcaps","text":"ИМПОРТ"},
 	
 	// REACTION PANEL
 	{"code":"upgradetitle","text":"Улучшить до {0}"},
@@ -1902,7 +1905,6 @@
 	{"code":"mmadvert2","text":"Уже доступно!"},
 	{"code":"new","text":"Новый)"},
 
-
 	// Keys (optional):
 	{"code":"key.LeftArrow","text":"Стрелка влево"},
 	{"code":"key.RightArrow","text":"Стрелка вправо"},
@@ -1933,5 +1935,8 @@
 	{"code":"key.Num6","text":"Num 6"},
 	{"code":"key.Num7","text":"Num 7"},
 	{"code":"key.Num8","text":"Num 8"},
-	{"code":"key.Num9","text":"Num 9"}
+	{"code":"key.Num9","text":"Num 9"},
+	
+	// Added 28/11/17
+	{"code":"choosenumberofpacks","text":"Выберите количество упаковок:"}
 ]
